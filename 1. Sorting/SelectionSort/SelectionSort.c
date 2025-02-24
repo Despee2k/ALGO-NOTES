@@ -1,4 +1,4 @@
-#include "include/utils.h"
+#include "../../include/utils.h"
 
 void selectionSort(int arr[]){
     for(int i = MAX - 1; i > 0; i--){
