@@ -1,13 +1,10 @@
 #include "utils.h"
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <limits.h>
 
-void printer(int arr[]){
+void printer(int arr[], int size){
     printf("Array: ");
-    for(int i = 0; i < MAX; i++){
+    for(int i = 0; i < size; i++){
         printf("[%d]", arr[i]);
     }
     printf("\n");
