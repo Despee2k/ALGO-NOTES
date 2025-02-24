@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-#define MAX 10
+#include "include/utils.h"
 
 void selectionSort(int arr[]){
     for(int i = MAX - 1; i > 0; i--){
@@ -15,14 +13,6 @@ void selectionSort(int arr[]){
         arr[i] = arr[biggestIndex];
         arr[biggestIndex] = temp;
     }
-}
-
-void printer(int arr[]){
-    printf("Array: ");
-    for(int i = 0; i < MAX; i++){
-        printf("[%d]", arr[i]);
-    }
-    printf("\n");
 }
 
 int main(void){
