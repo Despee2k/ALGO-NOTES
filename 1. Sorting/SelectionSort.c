@@ -9,9 +9,7 @@ void selectionSort(int arr[]){
             }
         }
 
-        int temp = arr[i];
-        arr[i] = arr[biggestIndex];
-        arr[biggestIndex] = temp;
+        swap(arr, i, biggestIndex);
     }
 }
 
