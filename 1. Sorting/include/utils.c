@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <limits.h>git 
+#include <limits.h>
 
 void printer(int arr[]){
     printf("Array: ");
