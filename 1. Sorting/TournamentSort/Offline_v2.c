@@ -13,9 +13,6 @@ int *createHeap(int arr[], int size, int heapSize){
     while(i < size){
         heap[j--] = arr[i++]; 
     }
-    while(j >= 0){
-        heap[j--] = INF;
-    }
 
     return heap;
 }
