@@ -29,6 +29,8 @@ void tournamentSort(int arr[], int size){
         int LC = RC - 1;
 
         while(RC > 0){
+            // extra condition for when the number of elements is odd
+            // this ensures that index versus value does not occur
             if(RC == size - 1 && size % 2 != 0){
                 heap[(RC - 1) / 2] = (heap[RC] < heap[heap[LC]]) ? RC : heap[LC];
             }
